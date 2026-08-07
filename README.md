@@ -1,6 +1,6 @@
 # ⚽ Football Event Data Pipeline (Medallion Architecture)
 
-![CI Pipeline](https://img.shields.io/github/actions/workflow/status/tu-usuario/sports-data-pipeline/ci.yml?branch=main&label=CI%20Pipeline&logo=github)
+![CI Pipeline](https://img.shields.io/github/actions/workflow/status/Pablooca/sports-data-pipeline/ci.yml?branch=main&label=CI%20Pipeline&logo=github)
 ![Python Version](https://img.shields.io/badge/python-3.10%20%7C%203.11-blue?logo=python)
 ![Code Style](https://img.shields.io/badge/code%20style-black-000000.svg)
 ![License](https://img.shields.io/badge/license-MIT-green)
