@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  etl:
+    build: .
+    container_name: sports-etl-pipeline
+    volumes:
+      # Sincroniza la carpeta local 'data' con la carpeta '/app/data' del contenedor
+      - ./data:/app/data
+    # Opcional: Aquí puedes cambiar los argumentos de la CLI para procesar otros partidos
+    # command: ["--match-id", "3869685"]
