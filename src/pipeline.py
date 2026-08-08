@@ -21,7 +21,7 @@ def run_shot_pipeline(match_id: int, output_path: str) -> Path:
     print(f"[1/3] Extrayendo eventos del partido {match_id}...")
     raw_events = fetch_match_events(match_id)
 
-    print(f"[2/3] Transformando y limpiendo datos de tiros...")
+    print("[2/3] Transformando y limpiendo datos de tiros...")
     shots_df = clean_shot_events(raw_events)
 
     print(f"[3/3] Guardando resultado en {output_path}")
